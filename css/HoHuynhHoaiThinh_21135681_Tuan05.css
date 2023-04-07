@@ -124,9 +124,40 @@
 #center_5{
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
+    border-bottom: 1px solid #9999;
+    padding-bottom: 30px;
 }
 #center_5_reviews{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+#center_comments{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#center_comments_person{
+    display: flex;
+}
+
+#center_6{
+    display: flex;
+    flex-direction: column;
+}
+#center_6_header{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#center_6_cards{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-around;
+}
+#cards{
+    border: 1px solid #9999;
+    border-radius: 5px;
 }
