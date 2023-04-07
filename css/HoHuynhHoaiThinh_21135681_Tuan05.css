@@ -1,0 +1,132 @@
+#wrapper {
+    width: 1510px;
+    display: flex;
+    flex-direction: column;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #9999;
+}
+
+#top_left {
+    display: flex;
+    align-items: center;
+}
+
+#top_left_box1 {
+    margin-left: 40px;
+    margin-right: 20px;
+    padding-top: 23px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: lightblue;
+    border-bottom: 5px solid lightblue;
+    font-family: Verdana;
+}
+
+.top_left_boxs {
+    margin-right: 30px;
+    color: #9999;
+}
+
+#top_right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top_right_icons {
+    margin-right: 15px;
+}
+
+#center {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 202px 50px 120px;
+}
+
+#center_1 {
+    display: flex;
+    align-items: center;
+}
+
+.center_1_boxs {
+    color: #9999;
+    font-size: 20px;
+}
+
+#center_2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#center_2_left {
+    display: flex;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#center_2_right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.center_2_right_icons {
+    margin-right: 10px;
+}
+
+#center_3 {
+    display: flex;
+}
+
+#center_4 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #9999;
+    padding-bottom: 35px;
+}
+#center_4_icon{
+    display: flex;
+    margin-top: 20px;
+}
+#center_4_icons{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-around;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+
+#box_information{
+    margin-top: 20px;
+    border: 1px solid #9999;
+    width: 350px;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#box_informations{
+    display: flex; justify-content: space-between; background-color: rgb(179, 193, 201); padding: 10px;
+    margin-top: 10px;
+    
+}
+#center_5{
+    display: flex;
+    flex-direction: column;
+}
+#center_5_reviews{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
